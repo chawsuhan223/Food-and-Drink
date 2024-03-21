@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/logo.jpg" type="image/x-icon" style="size: larger;">
+    <title>Tone Tone Food And Drinks</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <style>
+    body{
+        margin: 0;
+        padding: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+     background:  rgb(172, 139, 78); 
+    overflow: scroll;
+    /* background-image: url(./img/background.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    h3,img,ul{
+    margin: 0;
+    padding: 0;
+}
+.home{
+    background-color: aliceblue;
+    display: flex;
+    background-image: url(./img/Heading.jpg);
+}
+.logo{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+h3{
+    font-size: 20px;
+    margin-top: 10px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin-left:200px;
+}
+.list{
+    flex-grow: 1;
+}
+ .list li{
+    padding: 30px;
+    color:red;
+    font-size: 2em;
+  background-size: cover ;     
+}
+h2{
+    position: relative;
+    font-size: 2em;
+    letter-spacing: 15px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    line-height: 0.7em;
+    outline: none;
+    animation: animate 4s linear infinite;
+}
+@keyframes animate {
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
+        color: rgb(239, 239, 39);
+        box-shadow: none;
+    }
+    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
+        color:white;
+        text-shadow: 0 0 10px rgb(199, 238, 80), 
+        0 0 20px rgb(116, 159, 70),
+        0 0 40px rgb(27, 35, 26),
+        0 0 80px rgb(122, 95, 15),
+        0 0 160px rgb(25, 41, 2);}}
+    
+
+        .rating{
+            text-align: center;
+            margin-top: 50px;
+        }
+        .form{
+            text-align: center;
+            margin-left: 500px;
+            font-size: 1.3em;
+            /* border:  rgb(15, 231, 58); */
+        }
+        .connect{
+    background-color: grey;
+    margin-top: 40px;
+}
+.about{
+    flex-wrap: wrap;
+    display: flex;
+    flex-grow: 1;
+    list-style: none;
+    
+}
+.about li{
+    padding: 50px;
+}
+.order{
+    margin-left: 1000px;
+    padding: 10px;
+    width: 130px;
+}
+
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.csshttps://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    </head>
+<body>
+    <div class="home">
+        <a href="./Home.html"><img src="./img/logo.jpg" alt="" class="logo "></a>       
+        <h3>Tone Tone <br> Food and Drinks</h3>
+        <ul class="list">
+            <li><a href="./Price.html" style="text-decoration: none;">Price</a></li>
+            <li><a href="./Cake.html" style="text-decoration: none;">Cake</a><li>
+            <li><a href="./Birthday Cake.html" style="text-decoration:none ;">Birthday Cake</a></li>
+            <li><a href="./Drink.html" style="text-decoration:none ;">Drink</a></li>
+            <li><a href="./Smoothie.html" style="text-decoration:none ;">Smoothie</a></li>
+        </ul>
+    </div>
+    <h2 contenteditable="true">Tone Tone <br>  <br> Food and Drinks</h2>
+    <div class="rating">
+    <p style="font-size:30px ;">Rating 4.5 </p>
+    <p style="color:yellow ;"> <i class="fa-solid fa-star"></i> &nbsp;&nbsp;<i class="fa-solid fa-star"></i>&nbsp;&nbsp;<i class="fa-solid fa-star"></i>&nbsp;&nbsp;<i class="fa-solid fa-star"></i>&nbsp;&nbsp;<i class="fa-solid fa-star-half-stroke"></i></p>
+    
+    </div>
+    <form action="" class="form">
+     <fieldset style="width: 500px;">
+        <legend>Leave a Comment</legend>
+        <input type="text" placeholder="Name">
+        <p>Feedback</p>
+        <textarea name="" id="" cols="30" rows="10"></textarea> <br>
+        <label for="">Rating</label> <br>
+        <input type="text" placeholder="&star;&star;&star;&star;&star;">
+     </fieldset>   
+    </form> <br>
+    <button class="order"><a href="./Home.html" style="text-decoration:none ;">Sent</a></button>
+    <p style="font-size:1.1em ; text-align: center;">Thank you for your support!<i class="fa-solid fa-face-grin-hearts"></i></p>
+    <div class="connect">
+        <div class="info"> 
+            <ul class="about">
+                <li><p>Shop Location: <br> Between 69*70th Sts <br>Between 40*41th Sts <br>Mahar Aung Myay Township <br>Open:9AM to 9PM</p></li>
+                        <li class="online"><p>You can connect me</p>
+                        <a href=" ">Facebook</a> <br>
+                        <a href=" ">Instagram</a> <br>
+                        <a href=" ">Email</a> <br>
+                        <p>Offline:+977294731</p> 
+            </ul>
+        </div>
+    </div>
+    </body>
+
+</html>

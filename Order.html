@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/logo.jpg" type="image/x-icon" style="size: larger;">
+    <title>Tone Tone Food And Drinks</title>
+    <style>
+        body{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:  rgb(172, 139, 78);
+    overflow: scroll;
+}
+    h3,img,ul{
+    margin: 0;
+    padding: 0;
+}
+.home{
+    background-color: aliceblue;
+    display: flex;
+    background-image: url(./img/Heading.jpg);
+}
+.logo{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+h3{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.list{
+    display: flex;
+    list-style: none;
+    margin-left:200px;
+}
+.list{
+    flex-grow: 1;
+}
+.list li{
+    padding: 30px;
+    color:red;
+    font-size: 2em;
+  background-size: cover ;     
+}
+.connect{
+    background-color: grey;
+    margin-top: 40px;
+}
+.about{
+    flex-wrap: wrap;
+    display: flex;
+    flex-grow: 1;
+    list-style: none;
+    
+}
+.about li{
+    padding: 50px;
+}
+.order{
+    margin-left: 1380px;
+    padding: 10px;
+    width: 130px;
+}
+    </style>
+</head>
+<body>
+    <div class="home">
+        <a href="./Home.html"><img src="./img/logo.jpg" alt="" class="logo "></a>       
+         <h3>Tone Tone <br> Food and Drinks</h3>
+        <ul class="list">
+            <li><a href="./Price.html" style="text-decoration: none;">Price</a></li>
+            <li><a href="./Cake.html" style="text-decoration: none;">Cake</a><li>
+            <li><a href="./Birthday Cake.html" style="text-decoration:none ;">Birthday Cake</a></li>
+            <li><a href="./Drink.html" style="text-decoration:none ;">Drink</a></li>
+            <li><a href="./Smoothie.html" style="text-decoration:none ;">Smoothie</a></li>
+            <li><a href="./Review.html" style="text-decoration: none;">Review</a></li>
+        </ul>
+    </div>
+    <form action="" style="width:300px ; margin-left: 500px;padding: 50px; font-size: 1.6em;">
+        <fieldset style " ">
+            <legend style="color: rgb(44, 109, 44) ; font-size:1.1em ;">Customer Info</legend>
+            <label for="">Name</label><br>
+            <input type="text" placeholder="Your Name" required> <br>
+            <label for="">Phone Number</label> <br>
+            <input type="number" placeholder="09993344778" required><br>
+            <label for="">Your Address</label> <br>
+            <input type="text" placeholder="Address" required> <br><br>
+            <button style="margin-left: 150px;"><a href="./Home.html" style="text-decoration:none ;">Sent</a></button>
+        </fieldset>
+    </form>
+    <div class="connect">
+        <div class="info">
+            <ul class="about">
+                <li class="online"><p>You can order from Online</p>
+                    <input type="radio" name="radio">Cash on Delivery <br>
+                    <input type="radio" name="radio">Payment Delivery <br><br>
+                <p>Shop Location: <br> Between 69*70th Sts <br>Between 40*41th Sts <br>Mahar Aung Myay Township <br>Open:9AM to 9PM</p></li>
+                        <li class="online"><p>You can connect me</p>
+                        <a href=" ">Facebook</a> <br>
+                        <a href=" ">Instagram</a> <br>
+                        <a href=" ">Email</a> <br>
+                        <p>Offline:+977294731</p> 
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/logo.jpg" type="image/x-icon" style="size: larger;">
+    <title>Tone Tone Food And Drinks</title>
+    <style>
+        body{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:  rgb(172, 139, 78);
+    overflow: scroll;
+}
+    h3,img,ul{
+    margin: 0;
+    padding: 0;
+}
+.home{
+    background-color: aliceblue;
+    display: flex;
+    background-image: url(./img/Heading.jpg);
+}
+.logo{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+h3{
+    font-size: 20px;
+    margin-top: 10px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin-left:200px;
+}
+.list{
+    flex-grow: 1;
+}
+ .list li{
+    padding: 30px;
+    color:red;
+    font-size: 2em;
+  background-size: cover ;     
+}
+.video{
+    padding-top: 50px;
+    margin-left: 60px;
+}
+.connect{
+    background-color: grey;
+    margin-top: 40px;
+}
+.about{
+    flex-wrap: wrap;
+    display: flex;
+    flex-grow: 1;
+    list-style: none;
+    
+}
+.about li{
+    padding: 50px;
+}
+.order{
+    margin-left: 1380px;
+    padding: 10px;
+    width: 130px;
+}
+h1{
+    text-align: center;
+    padding-top: 50px;
+    color: rgb(115, 195, 233);
+    position: relative;
+    font-size: 2em;
+    letter-spacing: 15px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    line-height: 0.7em;
+    outline: none;
+    animation: animate 4s linear infinite;
+}
+@keyframes animate {
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
+        color: rgb(239, 239, 39);
+        box-shadow: none;
+    }
+    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
+        color:white;
+        text-shadow: 0 0 10px rgb(199, 238, 80), 
+        0 0 20px rgb(116, 159, 70),
+        0 0 40px rgb(27, 35, 26),
+        0 0 80px rgb(122, 95, 15),
+        0 0 160px rgb(25, 41, 2);}}
+    
+    </style>
+</head>
+<body>
+    <div class="home">
+        <a href="./Home.html"><img src="./img/logo.jpg" alt="" class="logo "></a>       
+         <h3>Tone Tone <br> Food and Drinks</h3>
+        <ul class="list">
+            <li><a href="./Price.html" style="text-decoration: none;">Price</a></li>
+            <li><a href="./Cake.html" style="text-decoration: none;">Cake</a><li>
+            <li><a href="./Birthday Cake.html" style="text-decoration:none ;">Birthday Cake</a></li>
+            <li><a href="./Smoothie.html" style="text-decoration:none ;">Smoothie</a></li>
+            <li><a href="./Review.html" style="text-decoration: none;">Review</a></li>
+        </ul>
+    </div>
+    <h1>Best Seller Items</h1>
+    <div class="video">
+        <button><video src="./video/11.mp4" controls autoplay muted  loop style="width: 200px;" height="200px"></video><br><br><input type="checkbox" value="checkbox">Chocolate Milk &nbsp;&nbsp;&nbsp;&nbsp;2000</button>
+        <button><video src="./video/22.mp4" controls autoplay muted  loop style="width: 200px;" height="200px"></video><br><br><input type="checkbox" value="checkbox">Milk Bubble Tea &nbsp;&nbsp;&nbsp;&nbsp;1500</button>
+        <button><video src="./video/33.mp4" controls autoplay muted loop style="width: 200px;" height="200px"></video><br><br><input type="checkbox" value="checkbox">Boba Tea&nbsp;&nbsp;&nbsp;&nbsp;3000</button>
+        <button><video src="./video/44.mp4" controls autoplay muted  loop style= "width: 200px;" height="200px"></video><br><br><input type="checkbox" value="checkbox">Special Milk Tea &nbsp;&nbsp;&nbsp;&nbsp;3000</button>
+        <button><video src="./video/55.mp4" controls autoplay muted  loop style="width: 200px;" height="200px"></video><br><br><input type="checkbox" value="checkbox">Love shape coffee &nbsp;&nbsp;&nbsp;&nbsp;4000</button>
+        <button><video src="./video/66.mp4" controls autoplay muted  loop style= "width: 200px;" height="200px"></video><br><br><input type="checkbox" value="checkbox">Lattie &nbsp;&nbsp;&nbsp;&nbsp;2000</button>
+    </div> <br>
+    <button class="order"><a href="./Order.html" style="text-decoration:none ;">Order Now</a></button><br>
+    <button class="order"><a href="./More.html" style="text-decoration: none;" >More &gt;&gt;</a></button>
+    <div class="connect">
+        <div class="info">
+            <ul class="about">
+                <li class="online"><p>You can order from Online</p>
+                    <input type="radio" name="radio">Cash on Delivery <br>
+                    <input type="radio" name="radio">Payment Delivery <br><br>
+                <p>Shop Location: <br> Between 69*70th Sts <br>Between 40*41th Sts <br>Mahar Aung Myay Township <br>Open:9AM to 9PM</p></li>
+                        <li class="online"><p>You can connect me</p>
+                        <a href=" ">Facebook</a> <br>
+                        <a href=" ">Instagram</a> <br>
+                        <a href=" ">Email</a> <br>
+                        <p>Offline:+977294731</p> 
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(172, 139, 78);
+    overflow: scroll;
+}
+    h3,img,ul{
+    margin: 0;
+    padding: 0;
+}
+.home{
+    background-color: aliceblue;
+    display: flex;
+    background-image: url(./img/Heading.jpg);
+}
+.logo{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+h3{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.list{
+    display: flex;
+    list-style: none;
+    margin-left:200px;
+}
+.list{
+    flex-grow: 1;
+}
+.list li{
+    padding: 30px;
+    color:red;
+    font-size: 2em;
+  background-size: cover ;     
+}
+h2{
+    position: relative;
+    font-size: 2em;
+    letter-spacing: 15px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    line-height: 0.7em;
+    outline: none;
+    animation: animate 4s linear infinite;
+}
+@keyframes animate {
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
+        color: rgb(239, 239, 39);
+        box-shadow: none;
+    }
+    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
+        color:white;
+        text-shadow: 0 0 10px rgb(199, 238, 80), 
+        0 0 20px rgb(116, 159, 70),
+        0 0 40px rgb(27, 35, 26),
+        0 0 80px rgb(122, 95, 15),
+        0 0 160px rgb(25, 41, 2)
+       ;
+    }
+}
+h4{
+    justify-content: center;
+    text-align: center;
+    margin-left: 280px;
+    margin-top: 50px;
+}
+h1{
+    text-align: center;
+    margin-left: 330px;
+}
+.menu{
+    width: 1024px;
+    margin-left: 100px;
+    
+}
+.photo{
+    display: flex;
+    
+}
+.menu-photo{
+   width: 25%; 
+   width: 200px;
+   height: 200px;
+}
+.image{
+    display: flex;
+}
+.connect{
+    background-color: grey;
+    margin-top: 40px;
+}
+.about{
+    flex-wrap: wrap;
+    display: flex;
+    flex-grow: 1;
+    list-style: none;
+    
+}
+.about li{
+    padding: 50px;
+}
+.order{
+    margin-left: 1380px;
+    padding: 10px;
+    width: 130px;
+}
